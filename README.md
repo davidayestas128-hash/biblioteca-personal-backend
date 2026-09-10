@@ -106,4 +106,4 @@ Todo cambio a `main` pasa por un Pull Request revisado por al menos un integrant
 
 ## Historial de cambios de dominio
 
-_(Si el dominio o el alcance del proyecto cambia durante el ciclo, documentarlo aquí con fecha y razón.)_
+_(Si el dominio o el alcance del proyecto llega a cambiar durante el ciclo, se documentara aquí con fecha y razón.)_
