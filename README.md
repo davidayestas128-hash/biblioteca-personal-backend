@@ -7,7 +7,7 @@ Proyecto integrador de la asignatura *Herramientas Avanzadas para el Desarrollo 
 ## Repositorio relacionado
 
 Este backend se conecta con el frontend desarrollado en React:
-👉 [biblioteca-personal-frontend](https://github.com/davidayestas128-hash/biblioteca-personal-frontend)
+ [biblioteca-personal-frontend](https://github.com/davidayestas128-hash/biblioteca-personal-frontend)
 
 ## Descripción
 
