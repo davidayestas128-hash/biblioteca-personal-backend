@@ -2,7 +2,7 @@
 
 Backend de la **Biblioteca Personal de Libros**, desarrollado con **Django REST Framework**.
 
-Proyecto integrador de la asignatura *Herramientas Avanzadas para el Desarrollo de Aplicaciones* (102HAD1) — Ciclo II-2026, Universidad Técnica Latinoamericana.
+Proyecto integrador de la asignatura *Herramientas Avanzadas para el Desarrollo de Aplicaciones* — Ciclo II-2026, Universidad Técnica Latinoamericana.
 
 ## Repositorio relacionado
 
@@ -44,7 +44,7 @@ biblioteca-personal-backend/
 2. Crear y activar un entorno virtual:
    ```bash
    python -m venv venv
-   source venv/bin/activate      # Windows: venv\Scripts\activate
+   venv\Scripts\activate
    ```
 
 3. Instalar dependencias:
