@@ -40,13 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Terceros
+    # Terceros (tecnologías obligatorias del proyecto)
     'rest_framework',
     'corsheaders',
-    # Apps propias del proyecto
-    'libros',
-    'colecciones',
-    'resenas',
+    # Las apps propias del dominio (libros, colecciones, resenas) se
+    # crearán en la Sesión 9 del cronograma ("Modularización frontend/back").
 ]
 
 MIDDLEWARE = [
@@ -125,6 +123,21 @@ USE_I18N = True
 
 USE_TZ = True
 
+
+# Archivos estáticos (CSS, JavaScript, Imágenes)
+# https://docs.djangoproject.com/en/6.1/howto/static-files/
+
+STATIC_URL = 'static/'
+
+
+# Correo electrónico
+# https://docs.djangoproject.com/en/6.1/topics/email/#topic-email-configuration
+
+MAILERS = {
+    'default': {
+        'BACKEND': 'django.core.mail.backends.console.EmailBackend',
+    },
+}
 
 # Archivos estáticos (CSS, JavaScript, Imágenes)
 # https://docs.djangoproject.com/en/6.1/howto/static-files/
