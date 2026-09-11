@@ -13,6 +13,23 @@ Este backend se conecta con el frontend desarrollado en React:
 
 API REST que permite gestionar una colección personal de libros: registro de libros, autores, colecciones personalizadas y reseñas con calificación. Incluye control de concurrencia mediante bloqueo optimista (campo `version` en el modelo `Libro`).
 
+## Flujo de trabajo
+
+Este proyecto sigue una estrategia basada en **GitHub Flow**, con una rama principal `main` protegida y ramas independientes para cada funcionalidad o corrección.
+
+**Convención de ramas:**
+- `feature/nombre-de-la-funcionalidad` — para nuevas funcionalidades
+- `fix/nombre-del-error` — para correcciones de errores
+
+**Convención de commits:**
+- `feat:` — nuevas funcionalidades
+- `fix:` — correcciones de errores
+- `docs:` — cambios en documentación
+- `refactor:` — cambios de estructura o código sin modificar la funcionalidad
+- `test:` — pruebas
+
+Antes de integrar cambios a `main`, se abre un Pull Request que debe ser revisado por al menos otro integrante del equipo.
+
 ## Tecnologías
 
 - Python / Django
