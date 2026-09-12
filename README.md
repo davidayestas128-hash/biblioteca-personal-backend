@@ -7,7 +7,7 @@ Proyecto integrador de la asignatura *Herramientas Avanzadas para el Desarrollo 
 ## Repositorio relacionado
 
 Este backend se conecta con el frontend desarrollado en React:
- [biblioteca-personal-frontend](https://github.com/davidayestas128-hash/biblioteca-personal-frontend)
+[biblioteca-personal-frontend](https://github.com/davidayestas128-hash/biblioteca-personal-frontend)
 
 ## Descripción
 
@@ -15,9 +15,12 @@ API REST que permitirá gestionar una colección personal de libros: registro de
 
 ## Tecnologías
 
-- Python / Django
-- Django REST Framework
-- django-cors-headers
-- SQLite (entorno de desarrollo)
+* Python / Django
+* Django REST Framework
+* django-cors-headers
+* SQLite (entorno de desarrollo)
 
-## Estructura del proyecto (avance actual — Sesión 2)
+## Estructura del proyecto
+
+Estado actual Sesión 2 y 3 completadas: estructura inicial del proyecto, .gitignore, flujo de ramas documentado y Pull Requests con revisión entre integrantes. 
+
